@@ -15,7 +15,7 @@ This Odoo module extends the `hr.employee` and `res.config.settings` models to a
 ## Configuration
 
 1. Go to the settings menu in Odoo.
-2. Enter your IPinfo API token, remember to make a token in ipinfo website!
+2. Enter your IPinfo API token, remember to make a token in ipinfo.io website!
 
 ## Usage
 
