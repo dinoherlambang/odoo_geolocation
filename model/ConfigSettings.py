@@ -13,9 +13,7 @@ class ConfigSettings(models.Model):
     @api.model
     def get_geolocation(self, ):
         """
-        {
-          "@api.model":false
-        }
+          get the token from ipinfo.io
         """
         token = self.ipinfo_token
         response = requests.get(f'https://ipinfo.io?token={token}')
