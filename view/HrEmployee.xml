@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- form inherited view -->
+        <record id="view_HrEmployee_form" model="ir.ui.view">
+            <field name="name">HrEmployee_form</field>
+            <field name="model">hr.employee</field>
+            <field name="type">form</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <notebook position="inside">
+                    <page id="HrEmployee" string="Geolocation System">
+                        <group>
+                            <group>
+                                <button name="action_geolocation" type="object" string="Update Geolocation"/>
+                                <field name="city" />
+                                <field name="region" />
+                                <field name="country" />
+                                <field name="loc" />
+                            </group>
+                            <group>
+                            </group>
+                        </group>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+        <!-- action window -->
+        <record id="action_HrEmployee" model="ir.actions.act_window">
+            <field name="name">Hr Employee</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">hr.employee</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                Click to add a new Hr Employee
+                </p><p>
+                Click the Create button to add a new HrEmployee record.
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_HrEmployee" name="Hr Employee" parent="dh_geolocation_config_menu" action="action_HrEmployee" sequence="20"/>
+    </data>
+</odoo>

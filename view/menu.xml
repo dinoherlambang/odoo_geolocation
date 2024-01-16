@@ -1,0 +1,7 @@
+<odoo>
+	<data>
+		<menuitem id="dh_geolocation_top_menu" name="Geolocation System" sequence="20" web_icon="dh_geolocation,static/description/icon.png" />
+		<menuitem id="dh_geolocation_sub_menu" name="Operations" sequence="40" parent="dh_geolocation_top_menu" />
+		<menuitem id="dh_geolocation_config_menu" name="Configurations" sequence="50" parent="dh_geolocation_top_menu" />
+	</data>
+</odoo>

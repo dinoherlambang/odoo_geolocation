@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- action window -->
+        <record id="action_ConfigSettings" model="ir.actions.act_window">
+            <field name="name">Config Settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                Click to add a new Config Settings
+                </p><p>
+                Click the Create button to add a new ConfigSettings record.
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_ConfigSettings" name="Config Settings" parent="dh_geolocation_config_menu" action="action_ConfigSettings" sequence="30"/>
+    </data>
+</odoo>

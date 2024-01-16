@@ -1,0 +1,51 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* dh_geolocation
+# 
+# Translators:
+# vit_odoogen
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-16 09:00+0000\n"
+"PO-Revision-Date: 2022-09-22 05:44+0000\n"
+"Last-Translator: vit_odoogen, 2023\n"
+"Language-Team: Bahasa Indonesia (https://www.transifex.com/odoo/teams/41243/af/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: id\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+#. module: hr.employee
+#. odoo-python
+#: code:addons/dh_geolocation/models/hr.employee.py:0
+#, python-format
+# model:ir.model.fields,field_description:city
+msgid "City"
+msgstr "City"
+
+# model:ir.model.fields,field_description:region
+msgid "Region"
+msgstr "Region"
+
+# model:ir.model.fields,field_description:country
+msgid "Country"
+msgstr "Country"
+
+# model:ir.model.fields,field_description:loc
+msgid "Loc"
+msgstr "Loc"
+
+
+#. module: res.config.settings
+#. odoo-python
+#: code:addons/dh_geolocation/models/res.config.settings.py:0
+#, python-format
+# model:ir.model.fields,field_description:ipinfo_token
+msgid "Ipinfo Token"
+msgstr "Ipinfo Token"
+
